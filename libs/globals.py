@@ -1,0 +1,5 @@
+VERSION = "0.1"
+PROXYNOVA_URL = "https://api.proxynova.com/"
+COMB_PROXYNOVA_URI = "comb"
+COMB_PARAM = "?query="
+SHORT_DESCRIPTION = "Combination Of Many Breaches (COMB) info via proxynova.com"
