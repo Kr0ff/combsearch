@@ -37,7 +37,7 @@ def requestInfo(keyword: str) -> str:
     FINAL_URL = PROXYNOVA_URL + COMB_PROXYNOVA_URI + COMB_PARAM
     
     try:
-        r = requests.get( (FINAL_URL + keyword), verify=True, headers=headers )
+        r = requests.get( (FINAL_URL + keyword + "&start=0&limit=100"), verify=True, headers=headers )
         SUCCESS(f"Results: ")
         
         _json = parsejson(r.text, "lines")
