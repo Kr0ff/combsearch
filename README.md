@@ -4,6 +4,7 @@ Retrieve information about breached accounts from "Combination Of Many Breaches"
 # Description
 The script is pretty simple, it uses the API of proxynova.com to return results from the COMB database leak. 
 > Please note that the information returned does not include all possible results and it seems to be a limitation of the API (afaik). The returned results appear to be always 20 entries, if there are more than 20 entries in the database.
+
 > UPDATE: Proxynova have now updated their API to allow up to 100 results to be retrieved per request.
 
 ```sh
